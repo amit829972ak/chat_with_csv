@@ -1,6 +1,6 @@
 streamlit
 pandas
-pandasAI
+pandasai
 langchain
 apikey
 OpenAI

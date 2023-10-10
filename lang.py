@@ -20,8 +20,6 @@ def chat_with_csv(df,prompt):
     pandas_ai = MyPandasAI(llm)
     result = pandas_ai.run(df,prompt=prompt,show_code=True)
     return result
-
-st.set_page_config(layout='wide')
 st.title("Multiple-CSV ChatApp powered by LLM")
 
 # Upload multiple CSV files

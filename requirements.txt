@@ -1,0 +1,5 @@
+streamlit
+pandasAI
+OpenAI
+Pandas
+load_dotenv

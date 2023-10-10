@@ -1,6 +1,11 @@
 streamlit
-bs4
+pandas 
+langchain
+apikey
 OpenAI
-pandasAI
-Pandas
-load_dotenv
+requests
+streamlit_lottie
+tabulate
+openpyxl
+chardet
+matplotlib

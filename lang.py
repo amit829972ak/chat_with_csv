@@ -8,7 +8,7 @@ from pandasai import PandasAI
 load_dotenv()
 
 openai_api_key = os.getenv("OPENAI_API_KEY")
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = st.sidebar.text_input("Please enter your openai api key", type='password')
 
 class MyPandasAI(PandasAI):
     def chat(self, prompt):

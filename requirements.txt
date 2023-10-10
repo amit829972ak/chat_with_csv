@@ -1,4 +1,6 @@
 streamlit
+bs4
+OpenAI
 pandasAI
 Pandas
 load_dotenv
